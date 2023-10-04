@@ -1,0 +1,13 @@
+.homePage{
+
+}
+
+.homePage h1{
+    text-align: center;
+    color: var(--mainBlue);
+    margin: 30px;
+}
+
+.homePage img{
+    margin: 30px;
+}

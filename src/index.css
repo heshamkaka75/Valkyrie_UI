@@ -1,0 +1,18 @@
+:root{
+  --mainGray: #647382;
+  --mainGreen: #01884e;
+  --mainBlue: #111389;
+
+  
+}
+
+body {
+  margin: 0;
+  font-family: 'Tajawal' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas;
+}

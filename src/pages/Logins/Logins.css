@@ -1,0 +1,71 @@
+
+.Login_Form{
+    margin: 40px;
+    color: #647382;
+}
+.Login_Form h3{
+    color: #01884e;
+}
+
+.Register_Form h3{
+    color: #01884e;   
+}
+
+.newOrgBtn{
+    margin: 10px;
+}
+
+.pageHeaderBreadcrumb{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #e7eaea;
+    padding: 17px;
+    color: #647382;
+    font-weight: bold;
+}
+
+.itemInBreadcrumb{
+    margin-top: auto;
+}
+.p-0{
+    text-decoration: none !important;
+    color: #647382;
+
+}
+
+.form-half{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-half .mb-3{
+    margin: 5px;
+}
+
+.other-login{
+    margin-top: 10px;
+    color: #647382;
+}
+
+.other-login a{
+    text-decoration: none !important;
+    color: #647382;
+}
+
+.dearDriverLogin{
+    color: white;
+    background-color: #01884e;
+    padding: 70px;
+    margin-bottom: 0px;
+    font-family: 'Tajawal';
+}
+
+.sideCard{
+    text-decoration: none !important;
+    color: rgb(26, 109, 26);
+}
+
+.card-title{
+    font-weight: bold !important;
+}

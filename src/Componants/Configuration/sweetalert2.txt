@@ -1,0 +1,64 @@
+import Swal from 'sweetalert2'
+
+ const delete = ()=> {
+    Swal.fire({
+      title: 'هل تريد الحذف',
+      text: "You won't be able to revert this!",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, delete it!'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        handleConfirm(id)
+      }
+    })  
+  }
+  
+  const handleConfirm = (id)=> {
+    Swal.fire(
+      'Deleted!',
+      'Your file has been deleted.',
+      'success'
+    )
+  }
+
+  success , error , warning , info , question
+
+  Swal.fire({
+          title: 'title',
+          text: 'text',
+          icon: 'error'
+        });
+
+
+
+        Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Something went wrong!',
+  footer: '<a href="">Why do I have this issue?</a>'
+})
+
+
+
+Swal.fire({
+  position: 'top-end',
+  icon: 'success',
+  title: 'Your work has been saved',
+  showConfirmButton: false,
+  timer: 1500
+})
+
+
+Swal.fire({
+  title: 'Sweet!',
+  text: 'Modal with a custom image.',
+  imageUrl: 'https://unsplash.it/400/200',
+  imageWidth: 400,
+  imageHeight: 200,
+  imageAlt: 'Custom image',
+})
+
+

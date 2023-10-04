@@ -1,0 +1,26 @@
+nav{
+    font-family:   'Tajawal',"kofi",'Times New Roman', Times, serif;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: rgb(245, 249, 245) !important;
+  }
+
+  .navbar-brand{
+    color: #064a4a !important;
+    font-size: 30px !important;
+  }
+
+  nav .nav-link{
+    font-size: 20px !important;
+
+  }
+
+  .navbarMargin{
+    margin: auto;
+  }
+
+  .nav-tracks{
+    text-decoration: none;
+    color: white;
+  }
